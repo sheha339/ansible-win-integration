@@ -1,0 +1,7 @@
+ad_safe_mode_password: "{{ ansible_password }}"
+ad_admin_user: "admin@{{ ad_domain_name }}"
+ad_admin_password: "{{ ansible_password }}"
+
+#ad_safe_mode_password: $<eY|E0F
+#ad_admin_user: admin@ad1.4ff1.example.opentlc.com
+#ad_admin_password: $<eY|E0F
